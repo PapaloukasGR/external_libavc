@@ -1,5 +1,5 @@
 cc_library_static {
-    name: "",
+    name: "libavcdec",
     vendor_available: true,
     shared_libs: ["liblog", "libcutils",],
 
