@@ -3151,8 +3151,7 @@ int main(WORD32 argc, CHAR *argv[])
 
     }
 
-    if((0 == s_app_ctx.u4_share_disp_buf) || (IV_YUV_420P == s_app_ctx.e_output_chroma_format))
-    {
+    if((0 == s_app_ctx.u4_share_disp_buf)
         free(ps_out_buf->pu1_bufs[0]);
     }
 
